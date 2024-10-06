@@ -13,4 +13,5 @@
 .start-container img {
   width: max(22vw, 200px);
   border-radius: 12px;
+  margin-bottom: 5px;
 }
