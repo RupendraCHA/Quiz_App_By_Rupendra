@@ -52,8 +52,11 @@ const App = () => {
                   setQuestionNumber={setQuestionNumber}
                   setTimeOut={setTimeOut}
                 />
+
               </div>
+              <p className='answered-questions'>Ansered Questions: {questionNumber - 1}/{data.length}</p>
             </>}
+
           </div>
 
         </MDBCol>

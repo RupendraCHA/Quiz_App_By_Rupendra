@@ -27,7 +27,13 @@ const Quiz = (props) => {
 
     const delay = (duration, callback) => {
         setTimeout(() => {
-            callback()
+            if (questionNumber === data.length) {
+                callback()
+                return setTimeOut(true)
+            } else {
+                callback()
+            }
+
         }, duration)
     }
 
