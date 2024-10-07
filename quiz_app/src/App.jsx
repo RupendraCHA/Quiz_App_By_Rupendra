@@ -54,7 +54,7 @@ const App = () => {
                 />
 
               </div>
-              <p className='answered-questions'>Ansered Questions: {questionNumber - 1}/{data.length}</p>
+              <p className='answered-questions'>Answered Questions: {questionNumber - 1}/{data.length}</p>
             </>}
 
           </div>
